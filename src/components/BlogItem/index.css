@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.blog-item {
+  margin: 0px;
+  border-bottom: 1px solid #9aa5b1;
+}
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #12022f;
+}
+.date-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #616e7c;
+  font-weight: 500;
+}
+.para-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #9aa5b1;
+}
+@media screen and (min-width: 768px), (min-width: 992px), (min-width: 1200px) {
+  .title-text {
+    font-size: 25px;
+  }
+  .date-text {
+    font-size: 22px;
+  }
+  .para-text {
+    font-size: 20px;
+  }
+}
